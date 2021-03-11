@@ -76,7 +76,6 @@ class Books_model extends CI_Model
                 $sql .= "WHERE title LIKE '%$keyword%' AND author_id = $authorIdSelected";
             }
         }
-
         $sql .= " ORDER BY title ASC LIMIT $start, $limit";
         return $this->db->query($sql)->result_array();
     }
