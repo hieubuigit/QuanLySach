@@ -1,0 +1,180 @@
+.title {
+  font-family: "Roboto", sans-serif;
+  color: green;
+}
+
+.link-home {
+  text-decoration: none;
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+table,
+td,
+th {
+  height: 30px;
+  border: 1px solid black;
+}
+
+.options {
+  width: 200px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.header {
+  background: hsla(185, 100%, 67%, 0.57);
+  font-size: 20px;
+}
+
+.item {
+  padding: 5px 10px;
+  height: 35px;
+}
+
+.btn-add {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.add,
+.btn-author-manager {
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #1ec700;
+  border-radius: 20px;
+}
+
+.add {
+  background-color: #1ec700;
+}
+
+.btn-author-manager {
+  background-color: #fa6c00;
+}
+
+.add:hover {
+  background-color: #127a00;
+}
+
+.btn-author-manager:hover {
+  background-color: #c25400;
+}
+
+.edit,
+.remove {
+  color: #fff;
+  padding: 5px 15px;
+  text-align: center;
+  margin: 10px 10px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.edit {
+  background-color: #1a6eff;
+  border: 1px solid blue;
+}
+
+.edit:hover {
+  background-color: #020080;
+}
+
+.remove {
+  background-color: red;
+  border: 1px solid red;
+}
+
+.remove:hover {
+  background-color: #940000;
+}
+
+.footer {
+  width: 100%;
+  background-color: gray;
+  padding: 25px 10px;
+  margin-top: 10px;
+}
+
+/* Search button */
+.search-button {
+  background-color: #ff4df3;
+  border: 1px solid #ff4df3;
+}
+
+.filter-button {
+  background-color: rgba(0, 138, 135, 1);
+  border: 1px solid hsla(179, 100%, 13%, 1);
+}
+
+.search-button,
+.filter-button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.search-button:hover {
+  background-color: #ad009f;
+}
+
+.filter-button:hover {
+  background-color: hsla(179, 100%, 13%, 1);
+}
+
+.search-form {
+  margin: 50px 0 20px 0;
+  text-align: center;
+}
+
+.search-book-name {
+  padding: 5px 5px;
+  font-size: 17px;
+}
+
+.form-name-filter {
+  margin: 10px 0;
+}
+
+.form-name-filter {
+  margin: 10px 20px 10px 20px;
+}
+
+.list-of-authors {
+  padding: 5px 5px;
+}
+
+.author-item {
+  font-size: 1.2em;
+}
+
+.pagination {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin: 50px 0;
+}
+
+.page-number {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 900;
+  color: #000;
+  padding: 10px 20px;
+  background-color: #ffe033;
+  border-radius: 10px;
+}
+
+.page-number:hover {
+  color: #000;
+  background-color: #ffad33;
+}
