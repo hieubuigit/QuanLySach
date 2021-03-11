@@ -53,10 +53,5 @@ $route['default_controller'] = 'home/render';
 $route['(:any)'] = 'home/render/$1';
 $route['home/processBooksData/page/(:num)'] = 'home/processBooksData/$1';
 
-// Ex
-$route['cpanel/(employee)/page/(:num)'] = 'cpanel/employee/employeeFunction/$2';
-$route['cpanel/(employee)/search'] = 'cpanel/employee/employeeSeach/$2/$3';
-$route['cpanel/(employee)/search/page/(:num)'] = 'cpanel/employee/employeeSeach/$2';
-
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
