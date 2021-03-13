@@ -30,7 +30,7 @@
                 <select name="authors" id="authors" class="field">
                     <option value="" disabled selected>Chọn tác giả</option>
                     <?php foreach ($authors as $author_item) : ?>
-                        <option <?= $author_item['id'] == $authorIdSelected ? "selected" : ""; ?> value="<?php echo $author_item['id']; ?>"><?php echo $author_item['name_author']; ?></option>
+                        <option <?= $author_item['id'] == $authorIdSelected ? "selected" : ""; ?> value="<?= isset($_GET('authors')) ? $_GET('authors') : ""; ?>"><?php echo $author_item['name_author']; ?></option>
                     <?php endforeach; ?>
                 </select>
                 <input type="submit" value="Lọc tác giả" class="filter-button">
